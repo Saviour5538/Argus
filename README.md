@@ -54,13 +54,6 @@ Every layer above is open source and free-tier. Full architecture and design rat
 - [ ] Module 15 — Deployment
 - [ ] Module 16 — Documentation & portfolio packaging (replaces this README)
 
-## Local setup
-```bash
-git clone https://github.com/<your-username>/argus-sre-copilot.git
-cd argus-sre-copilot
-uv sync  # or: pip install -e .
-cp .env.example .env  # fill in GROQ_API_KEY, QDRANT_URL, QDRANT_API_KEY, LANGFUSE_* keys
-```
 
 ## Scope boundaries (stated upfront, not hidden)
 - No live Kubernetes cluster — agents investigate replayed, real-labeled incident data
@@ -71,4 +64,4 @@ cp .env.example .env  # fill in GROQ_API_KEY, QDRANT_URL, QDRANT_API_KEY, LANGFU
   a genuine human-in-the-loop approval step.
 
 ## License
-[MIT](LICENSE) / [Apache-2.0](LICENSE) — pick one and update this line.
+[Apache-2.0](LICENSE) 
